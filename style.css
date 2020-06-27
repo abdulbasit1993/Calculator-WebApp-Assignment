@@ -1,0 +1,44 @@
+.panelBody {
+    padding: 15px;
+    background-color: #90caf9;
+    border-radius: 15px;
+    width: 320px !important;
+}
+
+.clearBtn {
+    width: 90%;    
+}
+
+button {
+    width: 60px;
+}
+
+.rowPad {
+    padding: 5px;
+}
+
+.inputCss {
+    width: 90%;
+    font-size: 12pt !important;
+    text-align: right !important;
+}
+
+.resultCss {
+    width: 90%;
+    font-size: 15pt !important;
+    text-align: right !important;
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.heading {
+    color: #000000;
+    text-align: center;
+}
+
+.credits {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-style: italic;
+    font-weight: bold;
+}

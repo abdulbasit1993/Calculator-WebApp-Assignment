@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Main JS -->
+    <script src="App.js"></script>
+
+    <title>Calculator Web App v2.0</title>
+</head>
+<body>
+
+    <br><br><br><br>
+    <div class="container panelBody">
+        <h2 class="heading">Calculator</h2>
+        <input type="text" id="inputData" class="inputCss" />
+        <input type="text" id="result" class="resultCss" readonly />
+
+        <div class="rowPad">
+            <button class="btn btn-info clearBtn" onclick="clearAll()">C</button>
+        </div>
+
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('%')">%</button>
+            <button class="btn btn-primary" onclick="getData('(')">(</button> 
+            <button class="btn btn-primary" onclick="getData(')')">)</button>
+            <button class="btn btn-primary" onclick="getData('/')">÷</button>
+        </div>
+
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('7')">7</button>
+            <button class="btn btn-primary" onclick="getData('8')">8</button>
+            <button class="btn btn-primary" onclick="getData('9')">9</button>
+            <button class="btn btn-primary" onclick="getData('*')">X</button>            
+                      
+        </div>
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('4')">4</button>
+            <button class="btn btn-primary" onclick="getData('5')">5</button>
+            <button class="btn btn-primary" onclick="getData('6')">6</button>
+            <button class="btn btn-primary" onclick="getData('-')">-</button>            
+        </div>
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('1')">1</button>
+            <button class="btn btn-primary" onclick="getData('2')">2</button>
+            <button class="btn btn-primary" onclick="getData('3')">3</button>
+            <button class="btn btn-primary" onclick="getData('+')">+</button>
+            
+
+        </div>
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('**')">^</button>
+            <button class="btn btn-primary" onclick="getData('0')">0</button>
+            <button class="btn btn-primary" onclick="getData('.')">.</button>
+            <button class="btn btn-info" onclick="inputValidation()">=</button>
+        </div>
+       <div>
+           <p class="credits">Made By: Abdul Basit Mehtab</p>
+       </div> 
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
